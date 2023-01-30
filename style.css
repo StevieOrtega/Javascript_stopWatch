@@ -1,0 +1,42 @@
+.container {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown-container {
+  padding: 30px 0 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+  font-size: 32px;
+}
+
+.btn-container {
+  padding: 30px 0 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  border-radius: 20px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  width: 20%;
+  height: 60px;
+}
