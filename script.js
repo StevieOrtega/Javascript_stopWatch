@@ -6,7 +6,7 @@ const startBtn = document.getElementById("start-btn");
 const stopBtn = document.getElementById("stop-btn");
 var seconds = 0;
 var minutes = 0;
-
+//testig
 // add function to start changing the minutes and seconds
 startBtn.addEventListener("click", function () {
   startBtn.style.background = "red";
