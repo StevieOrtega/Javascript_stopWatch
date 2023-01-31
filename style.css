@@ -1,9 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .container {
-  background-color: orange;
+  margin: 50px;
+  padding: 15px;
+  box-shadow: -10px 15px 19px 3px rgba(0, 0, 0, 0.2);
+  background-color: cadetblue;
   color: white;
   border-radius: 10px;
   font-family: "Raleway", sans-serif;
-  max-width: 780px;
+  max-width: 1040px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -39,4 +48,9 @@
   color: white;
   width: 20%;
   height: 60px;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: white;
 }
